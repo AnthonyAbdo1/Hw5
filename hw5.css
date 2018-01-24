@@ -1,6 +1,7 @@
 .header{
     background-color: aquamarine;
     height: 200px;
+    border: solid;
 }
 
 .mepic{
@@ -8,17 +9,25 @@
     max-height: 200px;
     max-width: 200px;
     border-radius: 600px;
+    border: solid;
     
     
     margin-left: 200px;
 }
 
+.nav{
+    display: inline-block;
+    border: solid;
+}
 
 .left {
     height: 500px;
-    width: 600px;
+    width: 33%;
     display: inline-block;
-    background-color: lightgray;
+    background-color: cornflowerblue;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
     
     
 }
@@ -33,17 +42,23 @@ body {
 
 .middle {
     height: 500px;
-    width: 600px;
+    width: 33%;
     float:middle;
     display: inline-block;
-    background-color: cadetblue;
+    background-color: cornflowerblue;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 .right {
     height: 500px;
-    width: 300px;
+    width: 33%;
     background-color: cornflowerblue;
     display: inline-block;
+      border: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 .linkshead{
